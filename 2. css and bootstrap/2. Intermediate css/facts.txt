@@ -1,0 +1,12 @@
+Sure, here's an easy explanation of CSS specificity and inheritance:
+
+CSS Specificity
+CSS specificity determines which styles are applied to an element when there are conflicting rules. Specificity is calculated based on the types of selectors used in the rule. The more specific the selector, the higher its priority.
+
+Specificity is calculated as follows:
+
+Inline styles (e.g., style="color: red;") have the highest specificity.
+ID selectors (e.g., #header) have high specificity.
+Class selectors, attribute selectors, and pseudo-classes (e.g., .class, [type="text"], :hover) have medium specificity.
+Element selectors and pseudo-elements (e.g., div, p, ::before) have low specificity.
+Example

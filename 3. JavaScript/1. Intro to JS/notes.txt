@@ -1,0 +1,12 @@
+javascript is a interpreted language and scripting language and the java is compiled language.
+
+alert and prompt keyword:
+alert - used to generate a notification
+prompt - geenrates an answerable notification
+
+e.g - 
+prompt("what is your name?")
+
+o/p will come as a dialogue box containing a text box ansking the answer for the question as -
+
+what is your name? and a dialigue box or text space to answer

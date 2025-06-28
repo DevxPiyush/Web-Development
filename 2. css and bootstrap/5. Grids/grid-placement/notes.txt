@@ -1,0 +1,57 @@
+.container{
+    display: grid;
+    grid-tempelate-columns: 1fr 2fr;
+    grid-tempelate-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+The notation : 1fr 2fr means
+1:2 
+for the column : their are 2 columns hence one will have the width of 1 where another one will have it for twice means 2 of the first one.
+
+and for rows it is 1:1 means 1 and 1
+
+for grid tempelates you can also use
+grid-tempelate: 100px 200px / 400px 800px;
+                      rows / columns
+
+we can also use auto : gives responsiveness
+scales at 100% of the width
+
+another way of adding size is by using minmax
+minmax(x,y) -> minimum length is x -> upto which x can go and maximum lenght is y -> jyada se jyada bss y tak jaayega
+
+syntax 
+.container{
+    display: grid;
+    grid-tempelate-rows: 200px 400px;
+    grid-tempelate-columns: 200px minmax(400px.800px);
+}
+
+using repeat:
+syntax- grid-tempelate-rows: repeat(2,200); = 200px,200px
+means repeat 200px 2 times
+
+
+another syntax to know - 
+grid-auto-rows: 300px;
+
+yeh if humne smjho 5 liye boxes and 4 square hona single frame me 2x2 ke toh use 200 px row and column dedo and baki jitne bhi aayenge 2x2 ke baad me sbko auto row dekr size kr skte ho
+
+Glossary:
+1. grid container = main div
+2. grid tems = items placed inside the container
+3. Tracks = items that can be sized using the grid tempelate row and column
+
+for the property you can use the following:
+given property
+.class{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+instead of this what we can write is:
+
+grid-area: 1 (row-start) / 1 (column-start) / 3 (row-end) / 3 (column-end) 

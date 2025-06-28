@@ -1,0 +1,15 @@
+html{
+    background-color: beige;
+}
+.red-head{
+    color: rgb(13, 230, 161);
+}
+#red{
+    color: blue;
+}
+h2[draggable = "true"]{
+    color: chocolate;
+}
+*{
+    color: blueviolet;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        background-color: azure;
+        display: grid;
+        grid-template-columns: auto 400px minmax(200px,500px);
+        grid-template-rows:1fr 1fr 2fr;
+        border-color: aqua;
+        justify-content: center;
+        gap: 10px;
+        grid-auto-rows: 50px;
+    }
+    .container > *{
+        background-color: green;
+        border-color: aqua;
+        border-radius: 5px;
+        border-width: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="fillspace"><p> wdith expands to fill space </p></div>
+        <div class="foo"><p> 400px wide</p></div>
+        <div class="fii"><p> min 200px max 500px wide</p></div>
+        <div class="fillspace"><p> wdith expands to fill space </p></div>
+        <div class="foo"><p> 400px wide</p></div>
+        <div class="fii"><p> min 200px max 500px wide</p></div>
+        <div class="fillspace"><p> wdith expands to fill space </p></div>
+        <div class="foo"><p> 400px wide</p></div>
+        <div class="fii"><p> min 200px max 500px wide</p></div>
+        <div class="foofxx"><p> 50px wide</p></div>
+    </div>
+</body>
+</html>

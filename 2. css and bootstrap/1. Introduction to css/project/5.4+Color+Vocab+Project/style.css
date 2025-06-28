@@ -1,0 +1,25 @@
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
+.color-title{
+    font-weight: normal;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+/* class ke liye dot(.) pehle lagao ,
+id ke pehle hashtag (#) and element ke pehle kuch nhi */

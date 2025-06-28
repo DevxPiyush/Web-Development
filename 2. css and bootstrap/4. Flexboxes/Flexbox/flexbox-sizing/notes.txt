@@ -1,0 +1,14 @@
+In the flexbox sizing thing
+
+by default:
+max width = the size of longest sentence
+min width = the size of longest word in any paragraph (even the shortest one sentence can have it too)
+
+content width < width < flex-basis < min-width/max-width 
+
+way to write the flex basis,shrink and basis?
+flex: 1 1 0
+pehla wala 1 = flex grow is on
+dusra wala 1 = flex shrink is on
+pehla wala 1 = flex basis is off
+1 pe on and 0 pe off hota hai

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            /* all this items re destine to work on the parent container only */
+            flex-wrap: wrap; 
+            /* wrapping content */
+            justify-content: center;
+            /* justifying the content */
+            gap: 10px;
+            align-items: flex-end;
+            height: 70vh;
+        }
+        /* Select all the elements that are thedirect child of container class */
+        .container > *{
+            flex-basis: 500px;
+        }
+        .div1{
+            background-color: red;
+            color: aliceblue;
+        }
+        .div2{
+            background-color: orange;
+            color: aliceblue;
+            order: 2;
+            /* by default every one have order as zero, as soon as i give it an order of 2 it will go at last as 2 bigger than 0, if any order given more than 2, then it will be atlast and 2 at second last*/
+        }
+        .div3{
+            background-color: yellow;
+            color: navy;
+        }
+        .div4{
+            background-color: green;
+            color: aliceblue;
+        }
+        .div5{
+            background-color: navy;
+            color: aliceblue;
+        }
+        .div6{
+            background-color: indigo;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="div1">RED</div>
+    <div class="div2">ORANGE</div>
+    <div class="div3">YELLOW</div>
+    <div class="div4">GREEN</div>
+    <div class="div5">BLUE</div>
+    <div class="div6">INDIGO</div>
+</div>
+</body>
+</html>
+
