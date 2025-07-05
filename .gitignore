@@ -1,0 +1,9 @@
+# Ignore all package.json files (anywhere in the project)
+**/package.json
+
+# Ignore all package-lock.json files (anywhere in the project)
+**/package-lock.json
+
+# Ignore all node_modules folders recursively
+node_modules/
+**/node_modules/
