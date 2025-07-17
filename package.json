@@ -2,6 +2,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "html-to-docx": "^1.8.0",
     "inquirer": "^12.6.3",
     "qr-image": "^3.2.0"
   }

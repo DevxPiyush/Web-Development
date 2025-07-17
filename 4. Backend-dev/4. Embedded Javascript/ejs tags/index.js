@@ -10,7 +10,7 @@ app.get("/", (req,res)=>{
         title : "EJS TAG",
         seconds : today.getSeconds(),
         items : ["apple","banana","cherry"],
-        htmlcontent : "This is a emphasized  line",
+        htmlcontent : "This is a emphasized line",
     };
     res.render("index.ejs", data);
 });

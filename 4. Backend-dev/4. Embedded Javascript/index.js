@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req,res)=>{
-    const today = new Date("June 26, 2020 11:00:35"); // either live blank aur keep the date yourself as per the need
+    const today = new Date(); // either live blank aur keep the date yourself as per the need
     const day = today.getDay();
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     // console.log("day");
